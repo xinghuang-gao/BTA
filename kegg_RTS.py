@@ -28,4 +28,4 @@ sns_kegg = sns.barplot(x=df_sort["logp x count"].iloc[1:14],
 
 fig = sns_kegg.get_figure()
 fig.savefig("kegg_top14.pdf")
-#xinghuang gao-05-28
+# KEGG pathway analysis
