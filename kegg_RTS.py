@@ -1,3 +1,4 @@
+# KEGG pathway analysis of all identified cysteine-containing peptides from BTA and BioGEE assay
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
@@ -28,5 +29,3 @@ sns_kegg = sns.barplot(x=df_sort["logp x count"].iloc[1:14],
 
 fig = sns_kegg.get_figure()
 fig.savefig("kegg_top14.pdf")
-# KEGG pathway analysis
-the resion was made on May 29 2019
